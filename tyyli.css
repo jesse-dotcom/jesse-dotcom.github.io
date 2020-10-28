@@ -16,3 +16,6 @@ progress {progress-appearance: ring;
 	color: black;
 	progress-size: 22px;
 }
+hr {
+	border-size: 30px;
+}

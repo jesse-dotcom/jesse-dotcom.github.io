@@ -12,6 +12,7 @@ p {
 	color: green;
 	font-size: 30px;
 }
-progress {-ms-progress-appearance: ring;
+progress {progress-appearance: ring;
 	color: black;
+	progress-size: 22px;
 }

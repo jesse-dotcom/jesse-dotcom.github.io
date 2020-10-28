@@ -4,12 +4,13 @@ color: red;
 	
 }
 body {
-    background-color: grey;
+    background-color: orange;
     color: white;
 }
 p {
 	font-size: 30px;
 	color: green;
 }
-progress {-ms-progress-appearance: ring;
+progress {
+	progress-appearance: ring;
 }

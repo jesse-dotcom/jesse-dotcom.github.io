@@ -4,6 +4,10 @@ color: red;
 	
 }
 body {
-    background-color: Blue;
+    background-color: grey;
     color: white;
+}
+p {
+	font-size: 30px;
+	color: green;
 }

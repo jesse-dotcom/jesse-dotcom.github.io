@@ -1,42 +1,93 @@
+body {
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: lightgray;
+}
 header {
-    background-color: black;
-    padding: 20px;
+    background-color: lightgray;
     text-align: center;
-    font-size: 25px;
-    color: white;
+    font-size: 35px;
+    color: black;
+    padding: 5px;
 }
 h2 {
     background-color: darkgrey;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     font-size: 15px;
 }
+h4 {
+    background-color: lightgray;
+    padding: 5px;
+    text-align: left;
+    margin: auto;
+    font-size: 15px;
+}
+h5 {
+    text-align: left;
+    font-size: 35px;
+}
+h6 {
+    color: black;
+}
+h7 {
+    color: black;
+    font-size: 20px;
+}
 
-nav {
-    background-color: lightgrey;
-    padding: 10px;
-    float: left;
-    width: 20%;
-    height: 300px;
-}
-li {
+ul {
     list-style-type: none;
-}
-section {
-    background-color: whitesmoke;
-    padding: 10px;
-    height: 300px;
-    width: auto;
+    padding: 5px;
+    font-size: 20px;
 }
 footer {
     background-color:black;
     padding: 10px;
     text-align: center;
-    color: white;
+    color: white; 
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: red;
+}
 
-body {
-    width: 90%;
+nav {
+    background-color: lightgray;
+    padding: 10px;
+    float: left;
+    width: 20%;
+    height: 457px;
+}
+aside {
+    background-color: whitesmoke;
+    padding: 10px;
+    height: 457px;
+    width: auto;
     margin-left: auto;
-    margin-right: auto;
-    }  
+}
+.row {
+    background-color: lightblue;
+    color: white;
+    font-size: 20px;
+    
+
+}
+.col-3 {
+    font-size: 15px;
+    color: black;
+    border-bottom: 3px solid black;
+}
+.col-6 {
+     font-size: 15px;
+     border-bottom: 3px solid black;
+} 
+.col {
+    font-size: 17px;
+}
